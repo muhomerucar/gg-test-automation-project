@@ -1,0 +1,20 @@
+2021-12-03 09:35:43,477 INFO  [Log] isMainPage() PASSED 
+2021-12-03 09:35:46,030 INFO  [Log] login() PASSED 
+2021-12-03 09:35:53,639 INFO  [Log] search() PASSED 
+2021-12-03 09:36:05,397 INFO  [Log] addRandomProducts() PASSED 
+2021-12-03 09:36:22,284 INFO  [Log] searchAndSelectSeventhBag() PASSED 
+2021-12-03 09:36:28,557 INFO  [Log] increaseTheQuantity() PASSED 
+2021-12-03 09:36:35,934 INFO  [Log] goToPayment() PASSED 
+2021-12-03 09:36:38,056 INFO  [Log] getErrorMessages() PASSED 
+2021-12-03 09:36:41,131 ERROR [Log] editCartPage() FAILED because of: no such element: Unable to locate element: {"method":"css selector","selector":"a[href*='Sepeti Düzenle'"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-SID15Q8', ip: '10.254.158.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d61d096a8e1aea1148564cebed37f32, findElement {using=css selector, value=a[href*='Sepeti Düzenle'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\TESTIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52820/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d61d096a8e1aea1148564cebed37f32 
+2021-12-03 09:36:44,199 ERROR [Log] newTab() FAILED because of: Index: 1, Size: 1 
+2021-12-03 09:36:48,336 INFO  [Log] Closing 
+2021-12-03 09:36:48,336 INFO  [Log] closeAllTab() PASSED 
