@@ -1,7 +1,4 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 
 import java.time.Duration;
@@ -48,7 +45,8 @@ public class CartPage extends BasePage{
     }
 
     public void newTabProcess() throws InterruptedException {
-        driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "t");
+        ((JavascriptExecutor)driver).executeScript("window.open()");
+        //driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "t");
         TimeUnit.SECONDS.sleep(3);
         ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(1));
